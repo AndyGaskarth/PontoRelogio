@@ -1,0 +1,142 @@
+[
+    {
+        "nome": "Lucas Silva",
+        "idade": 28,
+        "usuario": "silval",
+        "senha": "teste",
+        "matricula": "A7B2C3"
+    },
+    {
+        "nome": "Mariana Oliveira",
+        "idade": 32,
+        "usuario": "olivem",
+        "senha": "teste",
+        "matricula": "X9D4E1"
+    },
+    {
+        "nome": "Pedro Souza",
+        "idade": 25,
+        "usuario": "souzap",
+        "senha": "teste",
+        "matricula": "Q2W3E4"
+    },
+    {
+        "nome": "Ana Costa",
+        "idade": 30,
+        "usuario": "costaa",
+        "senha": "teste",
+        "matricula": "Z8X7C6"
+    },
+    {
+        "nome": "Rafael Lima",
+        "idade": 27,
+        "usuario": "limar",
+        "senha": "teste",
+        "matricula": "M5N6B7"
+    },
+    {
+        "nome": "Juliana Pereira",
+        "idade": 29,
+        "usuario": "pereij",
+        "senha": "teste",
+        "matricula": "V4C3X2"
+    },
+    {
+        "nome": "Gabriel Fernandes",
+        "idade": 31,
+        "usuario": "fernag",
+        "senha": "teste",
+        "matricula": "L1K2J3"
+    },
+    {
+        "nome": "Camila Rocha",
+        "idade": 26,
+        "usuario": "rochac",
+        "senha": "teste",
+        "matricula": "P9O8I7"
+    },
+    {
+        "nome": "Felipe Martins",
+        "idade": 33,
+        "usuario": "martif",
+        "senha": "teste",
+        "matricula": "U6Y5T4"
+    },
+    {
+        "nome": "Beatriz Almeida",
+        "idade": 24,
+        "usuario": "almeib",
+        "senha": "teste",
+        "matricula": "S3D2F1"
+    },
+    {
+        "nome": "Thiago Ribeiro",
+        "idade": 35,
+        "usuario": "ribeit",
+        "senha": "teste",
+        "matricula": "G8H7J6"
+    },
+    {
+        "nome": "Larissa Cardoso",
+        "idade": 28,
+        "usuario": "cardol",
+        "senha": "teste",
+        "matricula": "B5N4M3"
+    },
+    {
+        "nome": "Bruno Araujo",
+        "idade": 27,
+        "usuario": "araujb",
+        "senha": "teste",
+        "matricula": "T2R3E4"
+    },
+    {
+        "nome": "Patricia Mendes",
+        "idade": 30,
+        "usuario": "mendep",
+        "senha": "teste",
+        "matricula": "W1Q2A3"
+    },
+    {
+        "nome": "Renan Barbosa",
+        "idade": 29,
+        "usuario": "barbor",
+        "senha": "teste",
+        "matricula": "C6V5B4"
+    },
+    {
+        "nome": "Aline Castro",
+        "idade": 26,
+        "usuario": "castra",
+        "senha": "teste",
+        "matricula": "N8M7L6"
+    },
+    {
+        "nome": "Diego Teixeira",
+        "idade": 32,
+        "usuario": "teixei",
+        "senha": "teste",
+        "matricula": "K3J2H1"
+    },
+    {
+        "nome": "Vanessa Gomes",
+        "idade": 25,
+        "usuario": "gomesv",
+        "senha": "teste",
+        "matricula": "F4D3S2"
+    },
+    {
+        "nome": "Rodrigo Freitas",
+        "idade": 34,
+        "usuario": "freitr",
+        "senha": "teste",
+        "matricula": "L9K8J7"
+    },
+    {
+        "nome": "Isabela Dias",
+        "idade": 28,
+        "usuario": "diasi",
+        "senha": "teste",
+        "matricula": "P6O5I4"
+    }
+]
