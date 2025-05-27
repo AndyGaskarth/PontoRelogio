@@ -1,5 +1,12 @@
 [
     {
+        "nome": "Admin",
+        "idade": 30,
+        "usuario": "admin",
+        "senha": "admin",
+        "matricula": "123456"
+    },
+    {
         "nome": "Lucas Silva",
         "idade": 28,
         "usuario": "silval",

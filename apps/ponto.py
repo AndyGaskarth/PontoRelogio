@@ -1,17 +1,22 @@
+import json
+import os
+# Verifica se o arquivo ponto.txt existe, se não, cria um novo
+
+caminho_json = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'usuarios', 'users.json')
 
 def registrar_entrada():
     from datetime import datetime
     entrada = datetime.now()
     with open("ponto.txt", "a") as f:
-        f.write(f"Entrada: {entrada.strftime('%Y-%m-%d %H:%M:%S')}\n")
-    print(f"Entrada registrada: {entrada.strftime('%Y-%m-%d %H:%M:%S')}")
+        f.write(f"Entrada: {entrada.strftime('%d-%m-%Y %H:%M:%S')}\n")
+    print(f"Entrada registrada: {entrada.strftime('%d-%m-%Y %H:%M:%S')}")
 
 def registrar_saida():
     from datetime import datetime
     saida = datetime.now()
     with open("ponto.txt", "a") as f:
-        f.write(f"Saída: {saida.strftime('%Y-%m-%d %H:%M:%S')}\n")
-    print(f"Saída registrada: {saida.strftime('%Y-%m-%d %H:%M:%S')}")
+        f.write(f"Saída: {saida.strftime('%d-%m-%Y %H:%M:%S')}\n")
+    print(f"Saída registrada: {saida.strftime('%d-%m-%Y %H:%M:%S')}")
 
 def verificar_horas_trabalhadas():
     from datetime import datetime
@@ -28,9 +33,9 @@ def verificar_horas_trabalhadas():
 
         for registro in registros:
             if "Entrada" in registro:
-                ultima_entrada = datetime.strptime(registro.split(": ")[1].strip(), '%Y-%m-%d %H:%M:%S')
+                ultima_entrada = datetime.strptime(registro.split(": ")[1].strip(), '%d-%m-%Y %H:%M:%S')
             elif "Saída" in registro and ultima_entrada:
-                saida = datetime.strptime(registro.split(": ")[1].strip(), '%Y-%m-%d %H:%M:%S')
+                saida = datetime.strptime(registro.split(": ")[1].strip(), '%d-%m-%Y %H:%M:%S')
                 horas_trabalhadas += (saida - ultima_entrada).total_seconds() / 3600
                 ultima_entrada = None  # Reset after processing a pair
 
